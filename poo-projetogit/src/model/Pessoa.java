@@ -4,6 +4,7 @@ public class Pessoa {
 	
 	private String nome;
 	private int idade;
+	private String nomeMae;
 	
 	public Pessoa() {
 		// TODO Auto-generated constructor stub
@@ -23,6 +24,14 @@ public class Pessoa {
 
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+
+	public String getNomeMae() {
+		return nomeMae;
+	}
+
+	public void setNomeMae(String nomeMae) {
+		this.nomeMae = nomeMae;
 	}
 	
 	
